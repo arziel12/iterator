@@ -70,5 +70,5 @@ abstract class ImmutableCollection extends ObjectIterator
 	/**
 	 * @return class-string<T>
 	 */
-	abstract public function getType(): string;
+	abstract protected function getType(): string;
 }
