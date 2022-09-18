@@ -1,0 +1,25 @@
+{
+  "name": "luky/iterator",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Luky\\Iterator\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Luky\\Color\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "nette/tester": "^2.4",
+    "phpstan/phpstan": "^1.8"
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "scripts": {
+    "stan": "php vendor/bin/phpstan analyse src --level 9"
+  }
+}
